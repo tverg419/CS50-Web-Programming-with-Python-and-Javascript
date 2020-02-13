@@ -1,0 +1,72 @@
+/* Sass Declarations */
+ a {
+	 color: white;
+}
+ table {
+	 border: solid black 3px;
+}
+ th {
+	 background-color: gray;
+}
+ td, th {
+	 border: solid black 1px;
+	 border-collapse: collapse;
+	 text-align: center;
+	 padding: 10px;
+}
+ #about_body {
+	 background-color: #24c4dd;
+	 width: 80%;
+	 height: 80%;
+	 margin: auto;
+}
+ #python {
+	 width: 90%;
+	 height: 90%;
+}
+ .fruit {
+	 color: green;
+	 font-size: 1.5em;
+	 font-style: oblique;
+}
+ @media (max-width: 1000px) {
+	 img {
+		 background-color: #24c4dd;
+		 padding: 20px;
+	}
+}
+ img {
+	 width: 33%;
+	 height: 33%;
+}
+ #demo div {
+	 background-color: red;
+	 border: solid black 3px;
+	 padding: 5px;
+}
+ .header {
+	 padding-top: 10px;
+	 padding-bottom: 50px;
+}
+ div h1 {
+	 border: solid black 5px;
+}
+ div h2 {
+	 border: solid black 2px;
+}
+ .button-border, .about, .demo, .projects, .contact {
+	 border: 3px solid red;
+	 padding: 10px;
+}
+ .about {
+	 border-color: black;
+}
+ .demo {
+	 border-color: green;
+}
+ .projects {
+	 border-color: gray;
+}
+ .contact {
+	 border-color: blue;
+}
